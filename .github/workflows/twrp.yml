@@ -9,7 +9,7 @@ env:
   # (required) manifest branch 
   BRANCH: twrp-11
   # (required) device codename i.e: sweet mojito.. 
-  DEVICE: fog
+  DEVICE: twrp_fog
   # (required) device tree link with branch if exists
   DT_LINK: https://github.com/eun-Dumpfest/twrp_xiaomi_fog
   # (required) who made your phone ? 
@@ -25,7 +25,7 @@ env:
   SYM: _
   # (required) output format for some reason samsung phones need a custom mkbootimg
   # which compress your recovery into .tar (default: .img / samsung + custom mkbootimg: .tar) 
-  FORMAT: .tar
+  FORMAT: .img
 
 jobs:
   build:
